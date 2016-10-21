@@ -1,0 +1,32 @@
+<view class="content">
+    <!--<view class="detail" src="http://images.redteamobile.com/images/locations/covers/Taiwan.jpg">-->
+       <!--<button src="http://images.redteamobile.com/images/locations/covers/Taiwan.jpg"/>-->
+      
+    
+       
+      <view class="bg_view" style=" background: url('{{bgImgUrl}}') center; background-size:750rpx 400rpx">
+            <image class="icon_img" src="http://images.redteamobile.com/images/locations/logos/ChinaFlag.png"></image>
+      </view>
+        
+      
+      <view class="service_cell">
+          <view class="service_title">
+                <image src="http://images.redteamobile.com/images/locations/logos/ChinaFlag.png"></image>
+                <label class="service_name">香港包天流量套餐</label>
+                <label class="service_price">￥9.90/天</label>
+          </view>
+          <view class="service_info">
+                <label>• 套餐提供无限数据流量。其中300MB为4G高速流量，超过后则予以限速；
+                        /n• 第一次激活后套餐开始计时，每24小时计为使用1天。期间无论启用与否会持续计时直至购买天数用完为止；
+                        /n• 购买后需在15天内激活，逾期作废不予退款；
+                        /n• 在境外信号良好区域，该服务支持无网购买。"
+                </label>
+         </view>
+         <view class="service_Buy">
+                <button class="select_day">选择天数</button>
+                <button class="select_buy">立即购买</button>
+                
+         </view>
+      </view>
+
+</view>

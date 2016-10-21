@@ -1,0 +1,78 @@
+page{
+  height: 100%
+}
+
+.content{
+    height: 100%;
+    background-color: ghostwhite;
+}
+
+.person_group{
+   margin-top: 30rpx;
+    float: left;
+}
+
+.person_cell{
+  
+  background-color: white;
+  font-size: 13px;
+  height: 120rpx;
+  float: left;
+  width: 750rpx;
+}
+
+.person_zh{
+  height: 120rpx;
+  line-height: 120rpx;
+  float: left;
+  margin-left: 20rpx;
+  color:  #818181;
+  font-family: "黑体","宋体";
+}
+.person_no{
+  height: 120rpx;
+  line-height: 120rpx;
+  float: right;
+  margin-right:20rpx; 
+  color:  #818181;
+  font: 13px;
+  font-family: "黑体","宋体";
+}
+.person_arrow{
+  margin-top: 40rpx;
+  margin-right: 20rpx;
+  height: 40rpx;
+  width: 40rpx;
+  float: right;
+}
+.person_info{
+   margin-left:20rpx; 
+  float: left;
+  height: 120rpx;
+  line-height: 120rpx;
+}
+.title{
+   margin-top: 20rpx;
+   color: #B52F2C;
+    height: 40rpx;
+    line-height: 40rpx;
+   
+}
+
+
+.info{
+    margin-right:20rpx; 
+    height: 40rpx;
+     color:  #818181;
+    line-height: 40rpx;
+     
+}
+.hr{
+    float: left;
+    height:1px;
+    width:100%;
+    background-color: #dddddd;
+    
+   
+    opacity: 0.5;
+}

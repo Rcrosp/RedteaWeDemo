@@ -1,0 +1,24 @@
+<view class="content">
+<block wx:for="{{dataPlans}}">
+    <view class="group">
+        <view class="group-name">
+            <text>{{item.continent}}</text>
+        </view>
+        <block wx:for="{{item.dataPlans}}">
+        <view class="cell" bindtap="gotoDetail">
+            <image src="{{item.logoUrl}}"></image>
+            <!--<label>马其他</label>-->
+            <text class="cell-name">{{item.name}}</text>
+            <!--<text class="cell-day">/天</text> -->
+            <text class="cell-price">￥{{item.locationTariff}}</text>      
+             
+        </view>
+         <view class="hr"></view>
+         </block>
+          
+         
+    </view>
+</block>
+
+
+</view>

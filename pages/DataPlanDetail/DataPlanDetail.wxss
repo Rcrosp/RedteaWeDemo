@@ -1,0 +1,111 @@
+.content{
+    height: 100%;
+    background-color: ghostwhite;
+
+   
+}
+.detail{
+    text-align: center;
+}
+.bg_view{
+    
+    width: 750rpx;
+    height: 400rpx;
+    line-height: 400rpx;
+    text-align: center;
+    
+
+}
+.icon_img{
+   
+    width: 170rpx;
+    height: 170rpx;
+  
+}
+.service_cell{
+
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+    margin-top: 20rpx;
+    background: white;
+    float: left;
+    border:1px solid  #dddddd;
+
+}
+
+.service_title{
+
+    float: left;
+    height: 100rpx;
+    line-height: 100rpx;
+    width: 100%;
+}
+
+
+.service_title image{
+     float: left;
+     height: 80rpx;
+     width:  80rpx;
+     margin-left: 10rpx;
+     margin-top: 10rpx;
+}
+
+.service_name{
+     float: left;   
+     margin-left: 10rpx;
+     font-size: 15px;
+}
+
+.service_price{
+
+    float: right;
+    margin-right: 20rpx;
+    font-size: 15px;
+}
+
+.service_info{
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    float: left; 
+    font-size: 15px; 
+    font-family: "黑体","宋体";
+    
+}
+
+.service_Buy{
+    float: left;
+    height: 100rpx;
+    line-height: 100rpx;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.select_day{
+    height: 80rpx;
+    line-height: 80rpx;
+    width: 240rpx;
+  
+    margin-right: -100rpx;
+    margin-top: 10rpx;
+    font-size: 15px; 
+    font-family: "黑体","宋体";
+}
+
+.select_buy{
+    height: 80rpx;
+    line-height: 80rpx;
+    width: 240rpx;
+    margin-right: 10rpx;
+    margin-top: 10rpx;
+     font-size: 15px; 
+    font-family: "黑体","宋体";
+    background: red;
+    color: white;
+    
+}
+
+

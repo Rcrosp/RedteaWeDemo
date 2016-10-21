@@ -1,0 +1,87 @@
+.content{
+    height: 100%;
+    background-color: ghostwhite;
+}
+.order-current{
+
+    float: left;
+}
+.current-name{
+    float: left;
+    width: 750rpx;
+    background: ghostwhite;
+    height: 70rpx;
+    line-height: 70rpx;
+   font-size: 14px;
+   padding-left: 20rpx;
+  
+}
+.current-cell{
+
+    float: left;
+    height: 120rpx;
+    line-height: 120rpx;
+    background-color: white;
+    width: 100%;
+    
+}
+.current-img{
+
+    float: left;
+    width: 90rpx;
+    height: 90rpx;
+    margin-left: 20rpx;
+    margin-top: 15rpx; 
+
+}
+
+.current-info{
+   margin-left:20rpx; 
+   float: left;
+   height: 120rpx;
+   line-height: 120rpx;
+
+   font: 13px;
+}
+
+.current-title{
+   margin-top: 20rpx;
+   height: 40rpx;
+   line-height: 40rpx;
+   font-size: 13px;
+   
+}
+
+
+.current-time{
+    margin-right:20rpx; 
+    height: 40rpx;
+    color:  #818181;
+    line-height: 40rpx;
+    font-size: 13px;
+     
+}
+.curretn-status{
+   float: right;
+   height: 120rpx;
+   line-height: 120rpx;
+    font-size: 13px;
+     color:  #818181;
+    margin-right: 40rpx;
+}
+.history-info{
+   margin-left:20rpx; 
+   float: left;
+   height: 120rpx;
+   line-height: 120rpx;
+   font-size: 13px;
+}
+.hr{
+    float: left;
+    height:1px;
+    width:100%;
+    background-color: #dddddd;
+    
+   
+    opacity: 0.5;
+}

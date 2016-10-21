@@ -1,0 +1,85 @@
+.cell{
+    
+     
+     float: left;
+   	 width: 750rpx;
+     text-align: left;
+
+}
+.group-name{
+
+    background-color: ghostwhite;
+    font-size: 18px;
+     float: left;
+     width: 750rpx;
+      height:50rpx;
+    line-height: 50rpx;
+
+}
+.group-name text{
+
+    margin-left: 20rpx;
+    font-size: 14px;
+    height:50rpx;
+    line-height: 50rpx;
+
+}
+
+.cell image{
+     float:left; 
+    width: 78rpx;
+    height: 78rpx;
+    margin-top: 20rpx;
+    margin-left: 20rpx;
+    margin-bottom: 20rpx;
+    font: 16px;
+}
+.cell-name{
+   
+    width: auto;
+    margin-top: 20rpx;
+    margin-left: 20rpx;
+    height:80rpx;
+    line-height: 80rpx;
+    float:left; 
+    
+    font-family: "黑体","宋体";
+  
+}
+.cell-day {
+   
+    float: right;
+    margin-top: 20rpx;
+    margin-right: 20rpx;
+    height:80rpx;
+    line-height: 80rpx;
+
+
+     font-family: "黑体","宋体";
+}
+
+.cell-price {
+   
+    float: right;
+    margin-top: 20rpx;
+    margin-right: 20rpx;
+    height:80rpx;
+    line-height: 80rpx;
+    color: red;
+   
+      font-family: "黑体","宋体";
+ 
+}
+.pull-right{
+
+    float:right;
+}
+.hr{
+    float: left;
+    height:1px;
+    width:100%;
+    background-color: #dddddd;
+    
+   
+    opacity: 0.5;
+}

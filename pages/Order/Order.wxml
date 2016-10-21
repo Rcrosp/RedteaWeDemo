@@ -1,0 +1,61 @@
+<view class="content">
+
+     <view class="order-current">
+        <view class="current-name">
+            <text>当前套餐</text>
+        </view>
+
+        <block wx:for="{{actved}}">
+            <view class="current-cell">
+                <image class="current-img" src="{{item.dataPlan.logoUrl}}"></image>
+                <view class="current-info">
+                        <view class="current-title">
+                            <label>{{item.dataPlan.name}}</label>
+                        </view>
+                        <view class="current-time">
+                            <label>{{item.startDate}}</label>
+                        </view>
+                </view>
+                <label class="curretn-status">{{item.orderState}}</label>
+                <view class="hr"></view>
+            </view>
+         </block>
+          
+     </view>
+      <view class="order-current">
+                <view class="current-name">
+                    <text>未激活套餐</text>
+                </view>
+                 <block wx:for="{{ready}}">
+                    <view class="current-cell">
+                        <image class="current-img" src="{{item.dataPlan.logoUrl}}"></image>
+                        <view class="current-info">
+                                <view class="current-title">
+                                    <label>{{item.dataPlan.name}}</label>
+                                </view>
+                                <view class="current-time">
+                                    <label>{{item.startDate}}</label>
+                                </view>
+                        </view>
+                        <view class="hr"></view>
+                    </view>
+                </block>
+     </view>
+      <view class="order-current">
+                 <view class="current-name">
+                    <text>历史套餐</text>
+                </view>
+                 <block wx:for="{{history}}">
+                    <view class="current-cell">
+                        <image class="current-img" src="{{item.dataPlan.logoUrl}}"></image>
+                        <view class="history-info">
+                                <view class="history-title">
+                                    <label>{{item.dataPlan.name}}</label>
+                                </view>
+                        </view>
+                        <label class="curretn-status">{{item.orderState}}</label>
+                        <view class="hr"></view>
+                    </view>
+                </block>
+     </view>
+</view>

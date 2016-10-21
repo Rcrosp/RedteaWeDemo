@@ -1,0 +1,48 @@
+<view class="content">
+        <view class="person_group">
+                <view class="person_cell">
+                <label class="person_zh">个人账号:</label><label class="person_no">(点击可复制)082143F</label>
+                <view class="hr"></view>
+                </view>
+                <view class="person_cell">
+                <label class="person_zh">更换SIM卡信息:</label><image class="person_arrow" src="../../imgs/Icon_List_Rightarrow.png"></image>
+                <view class="hr"></view>
+                </view>
+        </view>
+
+         <view class="person_group">
+                <view class="person_cell">
+                <label class="person_zh">常见问题</label><image class="person_arrow" src="../../imgs/Icon_List_Rightarrow.png"></image>
+                <view class="hr"></view>
+                </view>
+                 <view class="person_cell">
+                <label class="person_zh">用户条款</label><image class="person_arrow" src="../../imgs/Icon_List_Rightarrow.png"></image>
+                <view class="hr"></view>
+                </view>
+                 <view class="person_cell">
+                <label class="person_zh">联系客户</label><image class="person_arrow" src="../../imgs/Icon_List_Rightarrow.png"></image>
+                <view class="hr"></view>
+                </view>
+                <view class="person_cell">
+                <label class="person_zh">关于红茶漫游</label><image class="person_arrow" src="../../imgs/Icon_List_Rightarrow.png"></image>
+                <view class="hr"></view>
+                </view>
+        </view>
+
+
+
+         <view class="person_group">
+                <view class="person_cell">
+                <view class="person_info">
+                        <view class="title">
+                                 <label class="person_title">APN安装和删除</label>
+                        </view>
+                        <view class="info">
+                                <label class="person_detail">用户请在插回洲博通以外SIM卡时删除APN</label>
+                        </view>
+                </view>
+                <image class="person_arrow" src="../../imgs/Icon_List_Rightarrow.png"></image>
+                <view class="hr"></view>
+                </view>
+        </view>
+</view>
