@@ -6,7 +6,7 @@
         </view>
 
         <block wx:for="{{actved}}">
-            <view class="current-cell">
+            <view class="current-cell" bindtap="gotoOrderDetail">
                 <image class="current-img" src="{{item.dataPlan.logoUrl}}"></image>
                 <view class="current-info">
                         <view class="current-title">

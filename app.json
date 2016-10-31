@@ -3,7 +3,8 @@
     "pages/Home/Home",
     "pages/Order/Order",
     "pages/Other/Other",
-    "pages/DataPlanDetail/DataPlanDetail"
+    "pages/DataPlanDetail/DataPlanDetail",
+    "pages/OrderDetail/OrderDetail"
   ],
   "window":{
     "backgroundTextStyle":"light",

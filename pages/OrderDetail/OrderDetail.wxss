@@ -1,0 +1,87 @@
+.content{
+    height: 100%;
+    background-color: ghostwhite;
+}
+
+.orderDetail_header{
+
+    text-align: center;
+    padding-top: 30rpx;
+  
+}
+
+.orderDetail_body{
+
+   padding-top: 100rpx;
+}
+
+
+.orderDetailTitle{
+    font-size: 20px; 
+    font-family: "黑体","宋体";
+    background: white;
+     height: 78rpx;
+     line-height: 78rpx;
+   
+}
+.title{
+
+    margin-left: 20rpx;
+}
+.trans{
+     margin-left: 20rpx;
+}
+.orderTransTitle{
+    font-size: 20px; 
+    font-family: "黑体","宋体";
+    background: white;
+    height: 78rpx;
+    line-height: 78rpx;
+   
+    width: 100%;
+}
+
+.arrow{
+    float: right;
+    margin-top: 19rpx;
+    margin-right: 20rpx;
+    width: 40rpx;
+    height: 40rpx;
+}
+
+.imgFlag{
+
+    width: 120rpx;
+    height: 120rpx;
+}
+.dataPlanName{
+    font-size: 20px; 
+    font-family: "黑体","宋体";
+    margin-top: 30rpx;
+    height: 38rpx;
+    line-height: 38rpx;
+}
+.dataPlanNameText{
+     height: 38rpx;
+     line-height: 38rpx;
+}
+.dataPlanTime{
+    margin-top: 20rpx;
+    font-size: 17px; 
+    font-family: "黑体","宋体";
+
+}
+.orderDetail{
+
+    background: yellow;
+    height: 400rpx;
+}
+.hr{
+  
+    height:1px;
+    width:100%;
+    background-color: #dddddd;
+    
+   
+    opacity: 0.5;
+}

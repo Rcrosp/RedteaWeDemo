@@ -1,0 +1,33 @@
+<view class="content">
+      <view class="orderDetail_header">
+           <view>
+            <image class="orderDetail_header imgFlag" src="http://images.redteamobile.com/images/locations/logos/ChinaFlag.png"></image>
+            </view>
+            <view class=" dataPlanName">
+            <text class="dataPlanNameText">中国测试套餐(4G)(10M)</text>
+            </view>
+            <view class=" dataPlanTime">
+            <text >剩余1天23小时10分钟</text>
+            </view>
+      </view>
+      <view class="orderDetail_body">
+            <view class="hr"></view>
+            <view class=" orderDetailTitle" bindtap="openOrderDetail">
+                <text class="title">套餐详情</text>
+                <image class="arrow" src="../../imgs/Icon_List_Downarrow.png"></image>
+            </view>
+            <view wx:if="{{hidden}}" class="orderDetail">
+                true
+            </view>
+            <view class="hr"></view>
+            <view class="orderTransTitle" bindtap="openTransDetail">
+                <text class="trans">交易详情</text>
+                <image class="arrow" src="../../imgs/Icon_List_Downarrow.png"></image>
+            </view>
+             <view wx:if="{{transHidden}}" class="orderDetail">
+                true
+            </view>
+            <view class="hr"></view>
+      </view>
+      
+</view>
